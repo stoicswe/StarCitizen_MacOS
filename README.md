@@ -4,6 +4,13 @@ This repo is a collection of scripts and configurations for getting Star Citizen
 ## Crossover
 Running star citizen does work with GTPK 3 (Beta 4) and later injected into Crossover 25.1. However, there are some issues with the game's EAC implementation, which prevents the user from logging into the game servers, despite loading to the main menu perfectly fine.
 
+## Current Outstanding Issues
+Currently the game will not get past the server login on macOS M-series processors due to the EAC issue. The idea is that if we can incorporate the patches from the LUG into the custom wine version, we may be able to get around the EAC issue. It is expected that once this EAC issue is resolved, the game will be able to run on macOS M-series processors. See the screenshot below:
+
+![EAC Issue](./docs/images/main_menu_2025.09.14.png)
+
+![EAC Issue](./docs/images/error_login_2025.09.14.png)
+
 ## Building the Custom Wine Installation
 
 ### Prerequisites
