@@ -1,0 +1,15 @@
+# MAC OS Stuff
+.DS_Store
+
+# Ignore any downloaded files
+*.tar
+*.tar.gz
+*.tar.xz
+
+# Ignore any Claude Code related configs
+CLAUDE.md
+
+# Ignore the build, install, source folders
+**/SOURCE/**
+**/BUILD/**
+**/INSTALL/**
